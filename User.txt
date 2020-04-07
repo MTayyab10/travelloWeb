@@ -2,5 +2,3 @@ tayyab
 password; 12345,
 "Diresctory of Project",
 "C:\Users\Tayyab\projects\Asia-Tours"
-Lets do try,
-Now lets change here and try to change on gh
