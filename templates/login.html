@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LogIn</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'loginform.css' %}">
+</head>
+<body>
+  <div class="login-Page">
+   <div class="form">
+      <form class="login-form" method="post">
+          {% csrf_token %}
+      <input type="text" name="username" placeholder="Username"/>
+      <input type="password" name="password" placeholder="Password">
+      <button>login</button>
+        <div>
+            {% for message in messages %}
+            <h3> {{ message }}</h3>
+            {% endfor %}
+
+        </div>
+      <h1 class="message">Not Registered Yet? <a href="register">Create an account</a></h1>
+    </form>
+   </div>
+  </div>
+</body>
+</html>
