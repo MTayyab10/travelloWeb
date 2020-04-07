@@ -2,4 +2,3 @@ tayyab
 password; 12345,
 "Diresctory of Project",
 "C:\Users\Tayyab\projects\Asia-Tours"
-its time to merge 
